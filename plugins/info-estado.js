@@ -22,11 +22,11 @@ const handler = async (m, { conn, usedPrefix }) => {
   const old = performance.now();
   const neww = performance.now();
   const rtime = (neww - old).toFixed(7);
-  const wm = '𝗞𝗜𝗟𝗟𝗭𝗡';
+  const wm = '𝐄𝐋𝐌𝐎-𝐁𝐎𝐓';
   const info = ` _*< INFO - ESTADO />*_
 
- [🤴🏻] *Prop.:* 𝗞𝗜𝗟𝗟𝗭𝗡
- [#️⃣] *WA:* wa.me/56983073328
+ [🤴🏻] *Prop.:* 𝐄𝐋𝐌𝐎-𝐁𝐎𝐓
+ [#️⃣] *WA:* wa.me/56993761200
 
  [💡] *Ping:* ${rtime}
  [🚀]*Uptime:* ${uptime}
