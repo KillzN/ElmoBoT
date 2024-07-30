@@ -8,7 +8,7 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
     let teks = `*> 𝗘𝗟𝗠𝗢 𝗟𝗢𝗦 𝗜𝗡𝗩𝗢𝗖𝗔❗❗ ☀️*\n\n ${oi}\n\n➥ _*@b.00jjks:*_\n`
     for (let mem of participants) {
     teks += `🦥 @${mem.id.split('@')[0]}\n`}
-    teks += `└ *🇪​​🇱​​​​​🇲​​​​​🇴​​​​​🇧​​​​​🇴​​​​​🇹​​​​*`
+    teks += `└ *EʟᴍᴏBᴏᴛ​​​​*`
     conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
     }
     handler.help = ['tagall <mesaje>','invocar <mesaje>']
